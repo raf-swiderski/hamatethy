@@ -9,12 +9,12 @@ function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
               <NavDropdown title="Photos" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.2">Beavers</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Storks</NavDropdown.Item>
+                {/* <NavDropdown.Item href="#action/3.2">Beavers</NavDropdown.Item>
+                <NavDropdown.Item href="#action/3.3">Storks</NavDropdown.Item> */}
                 {/* <NavDropdown.Divider /> */}
-                <NavDropdown.Item href="#action/3.1">All Photos</NavDropdown.Item>
+                <NavDropdown.Item href="/allphotos">All Photos</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

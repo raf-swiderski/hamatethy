@@ -1,13 +1,12 @@
 import NavBar from './components/NavBar';
-import AllPhotos from './components/AllPhotos';
-import './App.css';
+import HamaPhotoList from './components/HamaPhotoList';
 
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
-      <AllPhotos/>
+      <HamaPhotoList/>
     </div>
   );
 }
